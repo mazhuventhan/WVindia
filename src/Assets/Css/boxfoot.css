@@ -1,0 +1,11 @@
+.coverBox{
+    margin-top: 50px;
+    height: 130px;
+}
+.orangebox{
+    position: absolute;
+    top: 0;
+    height: 250px;
+    width: 50%;
+    left: 25%;
+}
