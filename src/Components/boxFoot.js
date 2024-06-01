@@ -6,9 +6,9 @@ const FootBox = () => {
         <>
         <div className="container-fluid p-3 coverBox" style={{ backgroundColor: '#e5e3e3' }}>
             <div className="container">
-                <div style={{height:'100px',backgroundColor:'#f37021'}} className="text-center p-2 orangebox">
+                <div style={{backgroundColor:'#f37021'}} className="text-center p-2 orangebox">
                     <h5 className="text-light mt-2" >"Donate Today to Give Children Access to Quality Education!"</h5>
-                    <button className="btn btn-light fw-bold mt-3">DONATE NOW</button>
+                    <button className="btn btn-light fw-bold mt-2">DONATE NOW</button>
                 </div>
                 <div className="row mt-3 mt-lg-5">
                     <div className="col-lg-4 col-12">
