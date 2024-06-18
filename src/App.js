@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import FootBox from './Components/boxFoot';
+import Home from './pages/home';
+// import ProtectedRoute from './Components/protectedRoute';
 
 function App() {
   return (
@@ -11,6 +13,9 @@ function App() {
         <Route path='/header' element={<Header />} />
         <Route path='/footer' element={<Footer />} />
         <Route path='/footbox' element={<FootBox />} />
+        <Route path='/' element={<Home />} />
+
+        {/* <Route path="/home" element={<ProtectedRoute ><Home /></ProtectedRoute>} /> */}
 
       </Routes>
     </Router>
