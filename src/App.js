@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import FootBox from './Components/boxFoot';
-import Home from './pages/home';
+import Home from './pages/Home/home';
 // import ProtectedRoute from './Components/protectedRoute';
 
 function App() {
