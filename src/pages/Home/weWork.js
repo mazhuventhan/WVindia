@@ -1,7 +1,7 @@
 import React from "react";
 import eduIcon from "../../Assets/Images/icon-education.png";
 import childEnd from "../../Assets/Images/chillend.png";
-
+import "../../Assets/Css/custom.css";
 const Wework = () => {
     return (
         <div className="container p-0">
@@ -16,7 +16,7 @@ const Wework = () => {
             <div className="container-fluid childEnd mt-lg-5 mt-3" style={{ backgroundImage: `url(${childEnd})`, backgroundRepeat: "no-repeat", height: "640px", backgroundPosition: "center" }} >
                 <div className="row">
                     <div className="col-lg-6 col-12 text-start">
-                        <div className="mt-3" style={{ display: "inline-flex", width: "72%" }} >
+                        <div className="mt-3 childcontents"  >
                             <img src={eduIcon} alt="demo" style={{ width: "72px", height: "72px" }} />
                             <div className="ml-2">
                                 <h6><b>Education</b></h6>
@@ -25,7 +25,7 @@ const Wework = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-12 text-end">
-                        <div className="mt-3 text-start" style={{ display: "inline-flex", width: "72%" }} >
+                        <div className="mt-3 text-start childcontents"  >
                             <img src={eduIcon} alt="demo" style={{ width: "72px", height: "72px" }} />
                             <div className="ml-2">
                                 <h6><b>Education</b></h6>

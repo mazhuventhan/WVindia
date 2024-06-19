@@ -1,0 +1,13 @@
+.childcontents{
+    display: inline-flex;
+    width: 72%;
+}
+@media only screen and (max-width: 768px) {
+    .childcontents{
+        display: inline-flex;
+        width: 100% !important;
+    } 
+    .childEnd{
+        background: none !important;
+    }
+}
