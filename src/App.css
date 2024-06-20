@@ -39,3 +39,9 @@
 p{
   font-size: 14px;
 }
+.form-check-inline .form-check-input {
+  border: 1px solid rgb(51, 49, 49);
+}
+.form-check-input[type=checkbox] {
+  border: 1px solid rgb(51, 49, 49);
+}
