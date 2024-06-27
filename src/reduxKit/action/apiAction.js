@@ -24,7 +24,7 @@ export const fetchData2 = () => {
     return async (dispatch) => {
         dispatch({ type: 'FETCH_DATA2_REQUEST' });
         try {
-            const response = await apiFunctions.dataApi();
+            const response = await apiFunctions.userApi();
             if (response.status === 200) {
                 dispatch({ type: 'FETCH_DATA2_SUCCESS', payload: response.data });
             } else {
@@ -35,5 +35,4 @@ export const fetchData2 = () => {
         }
     };
 };
-
 // Add more API actions as needed...
