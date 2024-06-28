@@ -5,11 +5,9 @@ const ReduxData = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(fetchData2());
-    }, [])
+    }, [dispatch])
     return (
-        <div>
-
-        </div>
-    )
+        <div/>
+   )
 }
 export default ReduxData;

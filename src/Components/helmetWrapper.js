@@ -16,5 +16,4 @@ const HelmetWrapper = ({ title, description }) => {
     </>
   );
 };
-
 export default HelmetWrapper;
